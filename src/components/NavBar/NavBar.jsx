@@ -26,7 +26,7 @@ export default function NavBar() {
     return (
         <div className={color ? "header header-bg" : "header" }>
             <Link to="/" >
-                <h1>Yacht Services</h1>
+                <h1>CSYS</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"} >
                 <li>
