@@ -27,8 +27,8 @@ export default function Footer() {
                 </div>
 
                 <div className="right">
-                    <h4>Let discuss the best way to own your yacht</h4>
-                    <p>Luxury pre-owned Yachts, New special order Yachts, Yacht donation specialist, </p>
+                    <h4>Let discuss the best way to own your yacht!</h4><br/>
+                    <p>Luxury pre-owned Yachts<br/> New special order Yachts<br/> Yacht donation specialist</p>
                     <div className="social">
                     <FaFacebook size={30} style={{color: "#fff", marginRight: "1rem"}}/>
                     <FaLinkedin size={30} style={{color: "#fff", marginRight: "1rem"}}/>
