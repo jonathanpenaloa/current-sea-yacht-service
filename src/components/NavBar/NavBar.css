@@ -9,6 +9,7 @@
     z-index: 10;
     background-color: #30668D;
     transition: 0.5s;
+    opacity: .9;
 }
 
 .header-bg {

@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* added */
     flex-direction: row-reverse;
     height: 100%;
 }
@@ -44,9 +43,3 @@
     padding-top: 20%;
     z-index: 6;
 }
-
-/* .right .bottom {
-    grid-column: 4/ -1;
-    grid-row: 1;
-    z-index: 5;
-} */
