@@ -14,7 +14,7 @@ export default function YachtCard( { imgsrc, title, text } ) {
         <div className="yacht-detials">
             <p>{text}</p>
             <div className="pro-btns">
-                <NavLink to='/Conatct' className="btn">Conatct Us</NavLink>
+                <NavLink to='/Contact' className="btn">Conatct Us</NavLink>
             </div>
         </div>
     </div>
