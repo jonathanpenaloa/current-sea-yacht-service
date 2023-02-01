@@ -1,0 +1,66 @@
+.yacht-heading {
+    text-align: center;
+    padding: 4rem, 0 2rem, 0;
+}
+
+.yacht-container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* update */
+.yacht-card {
+    background-color: rgb(9, 9, 9);
+    padding: 1.2rem 1rem;
+    border-radius: 1.9%;
+}
+
+.yacht-card > img {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.yacht-title {
+    color: #fff;
+    padding: 1rem;
+}
+
+.pro-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.pro-btns .btn {
+    padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.yacht-details p {
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 740px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    
+}
